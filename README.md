@@ -3,7 +3,7 @@
 
 
 This package provides tools for determining the optimal number of clusters in K-Means clustering using the **Elbow Method**. 🤖
-It automatically calculates the sum of squared errors (SSE) for differnce values of *k*, detects the Best k, and visualizes the results with an elbow plot. 📈
+It automatically calculates the sum of squared errors (SSE) for different values of *k*, detects the Best k, and visualizes the results with an elbow plot. 📈
 
 ---
 
