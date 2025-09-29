@@ -54,7 +54,7 @@ data = pd.DataFrame({
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(data)
 
-# Find the best k and save the elbow plot
+# Find the optimal k and save the elbow plot
 best_k = find_best_k(X_scaled, max_k=10, save_plot=True)
 print(f"Optimal k: {best_k}")
 # The elbow plot will be saved as 'elbow_plot.png' in your working directory. 🖼️
@@ -74,6 +74,7 @@ requirements.txt      # Dependencies required
 tests/
     elbow_test.py     # Unit tests
 ```
+
 
 ---
 
